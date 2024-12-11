@@ -1,0 +1,52 @@
+/* Estilos para el formulario */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo más claro y translúcido */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra más sutil */
+    font-family: 'Arial', sans-serif;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.form-container input:focus,
+.form-container select:focus,
+.form-container textarea:focus {
+    border-color: #0033A0; /* Color de borde al hacer foco */
+    box-shadow: 0 0 8px rgba(0, 51, 160, 0.5); /* Sombra cuando se hace foco */
+}
+
+.form-container button {
+    background-color: #0033A0; /* Fondo azul */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-container button:hover {
+    background-color: #00277a; /* Color del botón al pasar el cursor */
+}
+
+/* Estilo para los títulos del formulario */
+h3 {
+    color: #0033A0;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
